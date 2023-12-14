@@ -1,0 +1,57 @@
+.list-container .member_list {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+}
+.member_list img {
+    max-width: 60px;
+}
+.member_list .card-body {
+    padding-left: 50px;
+}
+.member_list a{
+    display: block;
+    text-decoration: none;
+    color: #888;
+    margin-bottom: 5px;
+}
+.member_list .card-title.h5 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.add_team_member {
+    border-bottom: 1px solid #e3e3e3;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+}
+.add_team_member p {
+    font-size: 16px;
+    color: #888;
+}
+.fade-color{
+    opacity: 0.5;
+}
+.fade-color:focus{
+    opacity: 1;
+}
+.plus_icon{
+    max-width: 20px;
+    float: right;
+    clear: both;
+}
+
+.member_list .edit-icon{
+    color:#0d7adc;
+}
+@media screen and (max-width:500px){
+    .list-container .member_list {
+
+        flex-direction: column;
+        padding-bottom: 20px;
+        margin-bottom: 15px;
+    }
+}

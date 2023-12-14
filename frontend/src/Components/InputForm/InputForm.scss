@@ -1,0 +1,50 @@
+.custom-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.custom-input .form-control {
+    border-radius: 3px;
+    height: 40px;
+    width: 100%;
+
+}
+
+.form-control:focus {
+    color: #000;
+    box-shadow: unset;
+    border: 1px solid #000
+}
+.form-control::placeholder{
+    font-size: 12px;
+    color:#888;
+}
+ .custom-input label {
+    color: #010101;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+span.danger {
+    color: red;
+    font-size: 12px;
+    border-color: red;
+}
+
+.role-col .form-check .form-check-input {
+    float: right;
+    margin-left: -1.5em;
+}
+
+.role-col .form-check {
+    padding-left: 0;
+}
+
+.role-col .form-check {
+    /* margin-bottom: 15px; */
+    margin-top: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+}
