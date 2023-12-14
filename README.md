@@ -4,9 +4,9 @@ Simple Application to manage Team Members.
 
 Tech-Stack 
 
-Frontend: Micro Frontend with React 
-API: Node JS Express
-Backend: PostgreSQL 
+- Frontend: Micro Frontend with React 
+- API: Node JS Express
+- Backend: PostgreSQL 
 
 ## Table of Contents
 - [Getting Started](#getting-started)
@@ -42,14 +42,18 @@ Provide step-by-step instructions on how to install and run your project.
 
 2.   Shell #1
     Run the Docker container for Database. Make necessary changes to docker-compose.yaml file. If you want to change PostgreSQL user/password or port
-         I have also given docker-compose.yaml and db-schema.sql to create the TABLE:
+    I have also given docker-compose.yaml and db-schema.sql to create the TABLE:
+
     ```bash
-    cd database
-    docker-compose up -d
+
+     cd database
+     docker-compose up -d
 
     it will auto-matically create TABLE users.
 
     if you want to put dummy data in TABLE to test Application use below command
+       # psql utility must be installed locally
+       
        cd database
        psql -U postgres -h localhost -d team_sync -f dummy-data.sql 
 
@@ -97,5 +101,7 @@ Explain how others can contribute to your project. Include guidelines for submit
 3. Make your changes and commit them: `git commit -am 'Add new feature'`
 4. Push to the branch: `git push origin feature-branch`
 5. Submit a pull request.
+
+
 
 
