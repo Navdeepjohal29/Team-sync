@@ -35,8 +35,9 @@ Provide step-by-step instructions on how to install and run your project.
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/your-repo.git
-    cd your-repo
+    git clone https://github.com/Navdeepjohal29/Team-sync.git
+    cd Team-sync
+
     ```
 
 2.   Shell #1
