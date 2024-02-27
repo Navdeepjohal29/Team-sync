@@ -1,6 +1,6 @@
-# Team-Sync
+# Microfrontend with react Team-Sync
 
-Simple Application to manage Team Members.
+Simple Application to Manage Team Members.
 
 Tech-Stack 
 
